@@ -1,3 +1,5 @@
+remote_theme : adueck/good-clean-read
+
 # Site settings
 title: My blog
 tag_text: My blog
@@ -11,5 +13,3 @@ font-awesome-include: true # make this false if you don't need font-awesome
 markdown: kramdown
 
 exclude: ["README.md"]
-
-remote_theme : adueck/good-clean-read
