@@ -1,7 +1,7 @@
 ---
 title: "Spring Bean Scope"
 date: 2021-06-02 20:30:00 +0900
-categories: spring
+categories: spring, study
 ---
 # Spring Bean Scope
 
