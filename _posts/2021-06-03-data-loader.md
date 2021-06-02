@@ -8,7 +8,7 @@ categories: spring study
 CommandLineRunner는 스프링 어플리케이션이 실행된 이후에 실행된다.
 이를 이용해서 초기값을 설정할 수 있다.
 
-```Java
+```java
 // DataLoader예제
 // CommandLineRunner를 implements한다.
 // run메소드에 실행될 것들을 적는다.
