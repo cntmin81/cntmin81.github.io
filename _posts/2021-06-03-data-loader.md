@@ -1,7 +1,7 @@
 ---
 title: "Data loader : 초기 데이터를 넣기"
 date: 2021-06-03 06:05:00 +0900
-categories: spring, study
+categories: spring study
 ---
 # Data loader 초기 데이터를 설정하는 방법
 
