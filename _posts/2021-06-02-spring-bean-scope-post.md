@@ -8,7 +8,7 @@ categories: spring
 여러가지 Scope가 있지만,
 99%는 Singleton쓰는 거로 괜찮다.(John Thompson)
 
-''' Java
+``` Java
 // SingletonBean.java
 // 싱글톤 예제 : 디폴트가 싱글톤이다
 import org.springframework.stereotype.Component;
@@ -24,9 +24,9 @@ public class SingletonBean {
         return "I'm a singleton.";
     }
 }
-'''
+```
 
-''' Java
+``` Java
 // PrototypeBean.java
 // 프로토타입 예제
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
@@ -45,4 +45,4 @@ public class PrototypeBean {
         return "I'm a prototype.";
     }
 }
-'''
+```
