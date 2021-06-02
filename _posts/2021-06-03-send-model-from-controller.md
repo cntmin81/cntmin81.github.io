@@ -5,7 +5,7 @@ categories: spring study
 ---
 # 컨트롤러에서 모델을 이용해 타임리프에 데이터 보내기
 
-```Java
+```java
 // VetsController.java
 // 컨트롤러 메소드의 파라미터에 Model을 지정
 // addAttribute메소드를 사용하면 알아서 타임리프로 넘어감
