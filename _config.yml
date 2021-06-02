@@ -96,10 +96,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "cntmin81"
+  name             : "Youngmin Shin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "..."
-  location         : "Saitama"
+  bio              : "40대애 초보 SI개발자"
+  location         : "사이타마, 일본"
   email            :
   links:
     - label: "Email"
