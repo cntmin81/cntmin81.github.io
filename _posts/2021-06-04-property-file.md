@@ -62,3 +62,24 @@ public class GreetingServiceConfig {
         return fakeDataSource;
     }
 ```
+
+### 환경별 프로퍼티 파일
+```
+# Dev환경. 파일명의 '-'이후에 환경이름을 써줌 
+# application-dev.properties
+guru.username=DevDBUser
+guru.password=DevPassword
+guru.jdbcurl=DevDBUrl
+```
+```
+# QA환경. 파일명의 '-'이후에 환경이름을 써줌 
+# application-qa.properties
+guru.username=QaDBUser
+guru.password=QaPassword
+guru.jdbcurl=QaDBUrl
+```
+```
+# application.properties파일
+# 여기서 환경으 지정해준다
+spring.profiles.active=qa
+```
