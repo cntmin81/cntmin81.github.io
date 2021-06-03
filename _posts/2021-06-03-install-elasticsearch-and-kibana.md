@@ -34,6 +34,9 @@ $ /bin/elasticsearch
 ```
 
 #### 키바나(Kibana)
+1. config/kibana.yml파일을 에디터에서 연다.
+2. elasticsearch.hosts가 엘라스틱서치를 볼 수 있게 지정한다. (엘라스틱서치에서 변경한게 없다면 기본값OK)
+3. 아래 커맨드 실행
 ```bash
 # 압축푼 디렉토리에서
 $ /bin/kibana
